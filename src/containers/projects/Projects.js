@@ -119,6 +119,7 @@ export default function Projects() {
       </Suspense>
     );
   } else {
+    // return <FailedLoading />;
     return <FailedLoading />;
   }
 }

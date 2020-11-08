@@ -185,10 +185,12 @@ const workExperiences = {
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
+console.log(process.env);
+
 const openSource = {
-  githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
+  githubConvertedToken: "724c0d484327c6f6aef7f25f00365186c58b35a6",
   githubUserName: "milindex", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile :"false" // Set true or false to show Contact profile using Github, defaults to false
+  showGithubProfile : "true" // Set true or false to show Contact profile using Github, defaults to false
 };
 
 
